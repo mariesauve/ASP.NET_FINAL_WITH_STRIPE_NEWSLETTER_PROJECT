@@ -1,0 +1,153 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+        @inject SignInManager<IdentityUser> SignInManager
+
+        @inject UserManager<IdentityUser> UserManager
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>@ViewData["Title"] - KoolStuff</title>
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/KoolStuff.styles.css" asp-append-version="true" />
+
+@if (SignInManager.IsSignedIn(User))
+{
+
+
+   
+
+                    @*Stripe Works on this one*@
+
+            <nav class="navbar navbar-expand-lg bg-light border-bottom box-shadow mb-3" data-bs-theme="light">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">KoolStuff</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Checkout" asp-action="Index">Checkout list</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Home/Stuff">Stuff</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="/Home/About">Featured</a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://localhost:7130/EmailStore/Create">Newsletter</a>
+                    </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                           aria-haspopup="true" aria-expanded="false">Products</a>
+                            <div class="dropdown-menu">
+                            <a class="dropdown-item" asp-controller="Home" asp-action="List">List</a>
+                            <a class="dropdown-item" asp-controller="Products" asp-action="Create">Create</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Separated link</a>
+                            </div>
+                        </li>
+                    </ul>
+              
+                    <form class="d-flex">
+                        <input class="form-control me-sm-2" type="search" placeholder="Search">
+                        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                   
+                    <div>
+                        <partial name="_LoginPartial" />
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+ 
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - KoolStuff - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/c94ee1266b.js" crossorigin="anonymous"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+}
+else
+{
+  
+            <nav class="navbar navbar-expand-lg bg-primary border-bottom box-shadow mb-3" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">KoolStuff</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarColor01">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Checkout" asp-action="Index">Checkout list</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Home/Stuff">Stuff</a>
+                            </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/About">Featured</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://localhost:7130/EmailStore/Create">Newsletter</a>
+                    </li>
+                            <li class="nav-item">
+                        <a class="nav-link" asp-controller="Home" asp-action="List">Table</a>
+                            </li>
+                        
+                        </ul>
+          @*       <div>
+                    <a class="cartname" href="/Home/Cart"><i class="fa-solid fa-cart-shopping text-light"></i>  <br /> </a>
+                </div> *@
+ 
+                
+                        <form class="d-flex">  
+                            <input class="form-control me-sm-2" type="search" placeholder="Search">
+                            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+
+                        <div>
+                            <partial name="_LoginPartial" />
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+
+     
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2024 - KoolStuff - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script src="https://kit.fontawesome.com/c94ee1266b.js" crossorigin="anonymous"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+   
+}

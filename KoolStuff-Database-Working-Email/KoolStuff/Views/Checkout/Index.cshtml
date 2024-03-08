@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Product>
+                                     @*Checkout page*@
+    <br />
+
+<table class="table table-striped table-hover table-responsive table-light table-bordered" style="width: 100%">
+    <tr>
+        <th>Product Name</th>
+        <th>Image</th>
+        <th>Quantity</th>
+        <th>Price</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td><img id="myStuff" src="@Url.Content("Images/" + item.Image)" alt="Product Image" style="max-width: 100px; max-height: 100px;" /></td>
+            <td>@item.Quantity</td>
+            <td>@(item.Price.ToString("0.00"))</td>
+
+
+        </tr>
+        
+    }
+    <br />
+    </table>
+<div class="my-2">
+    <a class="btn btn-primary" href="@Url.Action("Checkout", "Checkout")"><i class="fa-solid fa-bag-shopping"></i>   Checkout</a>
+</div>
+

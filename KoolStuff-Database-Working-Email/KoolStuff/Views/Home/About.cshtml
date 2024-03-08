@@ -1,0 +1,121 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+ @using Microsoft.AspNetCore.Identity
+
+        @inject SignInManager<IdentityUser> SignInManager
+
+        @inject UserManager<IdentityUser> UserManager
+@* <a class="dropdown-item" asp-controller="Checkout" asp-action="Index">Checkout link</a> *@
+
+<br />
+@if (User.IsInRole("Admin"))
+{
+    <div>
+        <span class="badge bg-warning rounded-pill">
+            <a href="https://app.smartdraw.com/index.aspx?startLocation=2&flags=128" target="_blank">
+                Smartdraw Link
+            </a>
+        </span>
+        <br />
+        <h3 style="color:orange">Hello Admin!  <i class="fa-solid fa-hand-sparkles" style="color:orange"></i></h3>
+
+    </div>
+}
+else
+{
+    <div>
+        @*    <span class="badge bg-secondary rounded-pill">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="_blank">
+    Mozilla Link
+    </a>
+    </span>
+    <br />
+    <span class="badge bg-secondary rounded-pill">
+    <a href="https://www.w3schools.com/css/css3_mediaqueries_ex.asp" target="_blank">
+    css3_mediaqueries Link
+    </a>
+    </span> *@
+        <br />
+        <span class="badge bg-secondary rounded-pill">
+            <a href="https://www.w3schools.com/html/html_images_imagemap.asp" target="_blank">
+                W3schools Imagemap Link
+            </a>
+        </span>
+    </div>
+
+}
+<p></p>
+
+<br />
+
+<body>
+    <br />
+    <div class="container-fluid mt-3">
+        <h3>Featured Products</h3>
+        <p>The Following Featured and Sale Items.</p>
+    </div>
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        </div>
+
+
+        <div class="carousel-inner text-center">
+            <div class="carousel-item active">
+                <img src="~/Images/Expressions_Crash-wallpaper-10487534.jpg" alt="Featured Picture" class="mx-auto d-block img-fluid" style="opacity: 0.5; width: 600px; height: 500px;">
+                <div class="carousel-caption">
+                    <h3 style="background-color:white">Featured Product</h3>
+                    <p style="background-color:white ;color:black">Super hero wallpaper!</p>
+                    <p style="background-color:white ;color:black">New $23.99</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="~/Images/Deadpool_Abstract-wallpaper-9547932.jpg" alt="Sale Picture" class="mx-auto d-block img-fluid" style="opacity: 0.5; width: 600px; height: 500px;">
+                <div class="carousel-caption">
+                    <h3 style="background-color:white">Featured Product</h3>
+                    <p style="background-color:white ;color:black">Deadpool Art!</p>
+                    <p style="background-color:white ;color:black">New $40</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="~/Images/Garfield-future.jpg" alt="Sale Picture" class="mx-auto d-block img-fluid" style="opacity: 0.5; width: 600px; height: 500px;">
+                <div class="carousel-caption">
+                    <h3 style="background-color:white">Sale Product</h3>
+                    <p style="background-color:white ;color:black">Garfield Digital Art!</p>
+                    <p style="background-color:white ;color:black">Sale $20.99</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="~/Images/error_meme1.jpg" alt="Sale Picture" class="mx-auto d-block img-fluid" style="opacity: 0.5; width: 600px; height: 500px;">
+                <div class="carousel-caption">
+                    <h3 style="background-color:white">Featured Product</h3>
+                    <p style="background-color:white ;color:black">Star Trek wallpaper!</p>
+                    <p style="background-color:white ;color:black">New $23.99</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <i class="fa-solid fa-chevron-left fa-2xl" style="color: #01060e;"></i>
+
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <i class="fa-solid fa-chevron-left fa-flip-horizontal fa-2xl" style="color: #01060e;"></i>
+            </button>
+        </div>
+    </div>
+    <br />
+
+
+</body>
+

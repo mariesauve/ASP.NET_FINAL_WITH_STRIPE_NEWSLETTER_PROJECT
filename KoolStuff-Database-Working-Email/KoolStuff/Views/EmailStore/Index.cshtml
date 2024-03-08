@@ -1,0 +1,88 @@
+﻿ @model IEnumerable<KoolStuff.Models.EmailStore>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using Microsoft.AspNetCore.Identity
+
+        @inject SignInManager<IdentityUser> SignInManager
+
+        @inject UserManager<IdentityUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <h1>Admin Page</h1>
+
+    <p>
+        <a asp-action="Create">Newsletter Subscribe Page</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.UserName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id"><i class="fa-solid fa-pen-to-square fa-xl" style="color:mediumblue"></i></a> |
+                        <a asp-action="Details" asp-route-id="@item.Id"><i class="fa-solid fa-circle-info fa-xl" style="color:green"></i></a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id"><i class="fa-solid fa-delete-left fa-xl" style="color:red"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+
+
+    <p>
+        <button type="button" onclick="submitForm()" class="btn btn-secondary"> <i class="fa-regular fa-newspaper fa-2xl" style="color: #3b0ac2;"></i><a asp-controller="Home" asp-action="About"> Thank you for Subscribing </a></button>
+    </p>
+
+    <div class="text-center">
+        <img style="width:400px; height:550px" src="/Images/MOCKNEWSLETTER.png" />
+    </div>
+
+}
+<script>
+    function submitForm() {
+        var userName = document.getElementById('userName').value;
+        var email = document.getElementById('email').value;
+
+        // Assuming you're using jQuery for AJAX
+        $.ajax({
+            url: '@Url.Action("SaveEmail", "EmailStore")', // Change "Email" to your controller name
+            type: 'POST',
+            data: {
+                UserName = userName,
+                Email = email
+            },
+            success: function (response) {
+                // Handle success response
+                console.log(response);
+            },
+            error: function (xhr, status, error) {
+                // Handle error
+                console.error(xhr.responseText);
+            }
+        });
+    }
+</script>

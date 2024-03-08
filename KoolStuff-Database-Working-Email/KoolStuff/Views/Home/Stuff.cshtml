@@ -1,0 +1,103 @@
+﻿
+ @using Microsoft.AspNetCore.Identity
+
+        @inject SignInManager<IdentityUser> SignInManager
+
+        @inject UserManager<IdentityUser> UserManager
+
+
+<br />
+@if (User.IsInRole("Admin"))
+{
+    <div>
+        <span class="badge bg-success rounded-pill">
+            <a href="https://app.smartdraw.com" target="_blank">
+                Smartdraw Link
+            </a>
+        </span>
+
+    </div>
+}
+else
+{
+    <div>
+        <span class="badge bg-success rounded-pill">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="_blank">
+                Mozilla Link
+            </a>
+        </span>
+
+    </div>
+
+}
+@* <script src="https://app.smartdraw.com/plugins/html/js/sdjswidget_html.js" type="text/javascript"></script>
+<script type="text/javascript">SDJS_Widget("467D8B7B62B8241196571DFEC0C22DBF4C5", 50161, 1, "");</script> *@
+
+<br />
+
+<div class="container" style="position: relative;">
+    <div class="text-center">
+        <h1 class="display-4">Stuff</h1>
+     
+        <button type="button" class="btn btn-primary" data-bs-toggle="popover" title="POW! %!&* BOOM!" data-bs-content="Hope you like our site!"><i class="fa-solid fa-star fa-lg" style="color: #f5ed05;"></i></button>
+        <div class="container mt-3">
+
+            <p>Push this button!  <i class="fa-regular fa-face-grin-tongue fa-xl" style="color:black;"></i> </p>
+
+            <button type="button" class="btn btn-outline-primary btn-lg" data-bs-toggle="modal" data-bs-target="#myModal">
+                <i class="fa-solid fa-face-grin-wink fa-lg" style="color:black;"></i>  Push Me!
+            </button>
+        </div>
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">KoolStuff</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Some stuff about us..
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="container">
+            <div class="row" style="margin-left:10px">
+                <div class="col">
+                </div>
+                <div class="col">
+                   
+                </div>
+                <div class="col">
+                </div>
+            </div>
+        </div>
+      
+    </div> <br />
+
+
+    <div class="card border-primary mb-3" style="max-width: 100rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+            <h4 class="card-title">Primary card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+
+    <div class="containerbtn" style="position: absolute; top: 0; left: 0; z-index: -1;">
+     
+         
+            <img src="~/Images/Expressions_Crash-wallpaper-10487534.jpg" style="opacity: .08;" />
+      
+    </div>
+</div>
+
+
+
+
+

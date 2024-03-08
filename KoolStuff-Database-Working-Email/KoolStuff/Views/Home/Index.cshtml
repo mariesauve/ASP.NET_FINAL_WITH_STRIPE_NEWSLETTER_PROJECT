@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://www.w3schools.com/js/js_htmldom_events.asp" target="_blank">JavaScript</a>.</p>
+  </div>
+<div class="text-center">
+<button id="myBtn" class="btn btn-outline-success">Display Local Date and Time</button>
+<br />
+<br />
+
+<p id="demo"></p>
+</div>
+<script>
+    document.getElementById("myBtn").onclick = displayDate;
+
+    function displayDate() {
+        document.getElementById("demo").innerHTML = Date();
+    }
+</script>
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    iframe {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 650px;
+        height: 350px;
+    }
+
+        iframe:hover {
+            box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        }
+</style>
+
+
+
+<h2>Helpful Video</h2>
+
+
+<a target="_blank" src="https://www.youtube.com/embed/PwQyRQuEor0?si=LEULfQ6xGilPsaHr">
+    <iframe width="1403" height="583" src="https://www.youtube.com/embed/PwQyRQuEor0" title="ASP.NET Core MVC Tutorial – Build a Website Shopping Cart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</a>

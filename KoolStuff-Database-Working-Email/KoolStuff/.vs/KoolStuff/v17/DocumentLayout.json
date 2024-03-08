@@ -1,0 +1,543 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\emailstore\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\emailstore\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\emailstore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\emailstore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\emailstore\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\emailstore\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\controllers\\emailstorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:controllers\\emailstorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\models\\emailstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:models\\emailstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\home\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\home\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\home\\stuff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\home\\stuff.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\emailstore\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\emailstore\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\emailstore\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\emailstore\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\repositories\\emailstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:repositories\\emailstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\repositories\\iemailstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:repositories\\iemailstorerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/KoolStuff/True/SqlTable/dbo.Product.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|c:\\users\\marie\\onedrive\\desktop\\a asp.net_evclass\\koolstuff-current-login-stripe-working\\koolstuff-database-working-email\\koolstuff\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E2E3AA81-37A1-4CC2-91E9-17D5DF489098}|KoolStuff.csproj|solutionrelative:views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\EmailStore\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmailStore\\Details.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\EmailStore\\Details.cshtml",
+              "RelativeToolTip": "Views\\EmailStore\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T03:55:36.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T02:51:27.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T06:40:44.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T08:54:06.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailStoreController.cs",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Controllers\\EmailStoreController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmailStoreController.cs",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Controllers\\EmailStoreController.cs",
+              "RelativeToolTip": "Controllers\\EmailStoreController.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAIwKAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T03:44:50.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "Controllers\\CheckoutController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAQwFMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T04:02:26.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmailStore.cs",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Models\\EmailStore.cs",
+              "RelativeDocumentMoniker": "Models\\EmailStore.cs",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Models\\EmailStore.cs",
+              "RelativeToolTip": "Models\\EmailStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T03:43:06.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Checkout\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Checkout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Checkout\\Index.cshtml",
+              "RelativeToolTip": "Views\\Checkout\\Index.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T04:08:25.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\EmailStore\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmailStore\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\EmailStore\\Index.cshtml",
+              "RelativeToolTip": "Views\\EmailStore\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAD0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T03:52:24.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Products\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T02:12:29.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "bootstrap.js",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-08T02:16:03.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\EmailStore\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmailStore\\Create.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\EmailStore\\Create.cshtml",
+              "RelativeToolTip": "Views\\EmailStore\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T03:56:12.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T10:50:26.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-03-07T03:22:05.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T01:50:53.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Home\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\List.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Home\\List.cshtml",
+              "RelativeToolTip": "Views\\Home\\List.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T02:13:10.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T22:46:38.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Stuff.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Home\\Stuff.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Stuff.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Home\\Stuff.cshtml",
+              "RelativeToolTip": "Views\\Home\\Stuff.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAowCUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T10:11:42.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAAJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T01:54:21.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA4wA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T03:58:11.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T00:06:57.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-06T00:11:44.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-08T01:40:44.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T00:25:44.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EmailStoreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Repositories\\EmailStoreRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EmailStoreRepository.cs",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Repositories\\EmailStoreRepository.cs",
+              "RelativeToolTip": "Repositories\\EmailStoreRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T03:48:08.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IEmailStoreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Repositories\\IEmailStoreRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IEmailStoreRepository.cs",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Repositories\\IEmailStoreRepository.cs",
+              "RelativeToolTip": "Repositories\\IEmailStoreRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T03:48:59.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\EmailStore\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmailStore\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\EmailStore\\Edit.cshtml",
+              "RelativeToolTip": "Views\\EmailStore\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T03:56:54.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\EmailStore\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\EmailStore\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\EmailStore\\Delete.cshtml",
+              "RelativeToolTip": "Views\\EmailStore\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T03:57:46.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T22:34:16.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "dbo.Product [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/KoolStuff/True/SqlTable/dbo.Product.sql",
+              "ToolTip": "dbo.Product [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-05T08:21:55.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "Views\\Products\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T11:09:43.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "Data\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\marie\\OneDrive\\Desktop\\A asp.NET_EVClass\\KoolStuff-Current-Login-Stripe-Working\\KoolStuff-Database-Working-Email\\KoolStuff\\Data\\DbSeeder.cs",
+              "RelativeToolTip": "Data\\DbSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T03:35:53.602Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
